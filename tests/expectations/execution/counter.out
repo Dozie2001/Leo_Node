@@ -1,0 +1,26 @@
+---
+namespace: Execute
+expectation: Pass
+outputs:
+  - - initial_symbol_table: 4194c6207c716b52d30529becd081afc9b7313e8e1ce400cc65c33fac50fab31
+      type_checked_symbol_table: 51dec1877b8da96c81929eabd624019ae50c181362703756b68d94d002cb2f56
+      unrolled_symbol_table: 0b6340ef766a4154f31b5fa00d9bebe8478a8e3c81f091b8433e870ad7213b25
+      initial_ast: 4dfda2f65cda8c8fbfdd39cfefc3238568b8c74fd182f84f59c1e7de723d919a
+      unrolled_ast: a603f0c3be39008efc4cb9aeea85bdde1beedbb2ab6406804b68eb78d06dfcd0
+      ssa_ast: a9affdba98d55e44f7b5f0d3703d971170c6c209d750fb5220dec14339f5a5f3
+      flattened_ast: 58ba3cd648de17fd81490112dfeeb09c0bdb62898634ea985d7f9cb3c55f70d2
+      destructured_ast: 662ae511ddd647c0654f0feb58c21a3d45a4462ca3fd73f0f733de76619012ad
+      inlined_ast: 662ae511ddd647c0654f0feb58c21a3d45a4462ca3fd73f0f733de76619012ad
+      dce_ast: 662ae511ddd647c0654f0feb58c21a3d45a4462ca3fd73f0f733de76619012ad
+      bytecode: 75252a5477a2943c07eaf114bef3dd214acbd7184b3118f14786beb8215bfb94
+      warnings: ""
+      results:
+        dubble:
+          - input: "[]"
+            output: "[{\n  program_id: test.aleo,\n  function_name: dubble,\n  arguments: [\n    aleo17z49cl3wfpjdyu5juxaxnuttag24ygz36pg8ln2qmlcsw4w8cs9s3f45uq\n  ]\n}]"
+          - input: "[]"
+            output: "[{\n  program_id: test.aleo,\n  function_name: dubble,\n  arguments: [\n    aleo17z49cl3wfpjdyu5juxaxnuttag24ygz36pg8ln2qmlcsw4w8cs9s3f45uq\n  ]\n}]"
+          - input: "[]"
+            output: "[{\n  program_id: test.aleo,\n  function_name: dubble,\n  arguments: [\n    aleo17z49cl3wfpjdyu5juxaxnuttag24ygz36pg8ln2qmlcsw4w8cs9s3f45uq\n  ]\n}]"
+          - input: "[]"
+            output: "[{\n  program_id: test.aleo,\n  function_name: dubble,\n  arguments: [\n    aleo17z49cl3wfpjdyu5juxaxnuttag24ygz36pg8ln2qmlcsw4w8cs9s3f45uq\n  ]\n}]"

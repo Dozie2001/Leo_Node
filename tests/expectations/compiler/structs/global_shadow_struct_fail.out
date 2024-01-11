@@ -1,0 +1,5 @@
+---
+namespace: Compile
+expectation: Fail
+outputs:
+  - "Error [EAST0372015]: There are two mismatched definitions of struct `s1`.\n     |\n     = Duplicate definitions of structs are required to use external structs, but each field's name and type must match exactly.\n"
